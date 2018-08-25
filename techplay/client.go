@@ -30,7 +30,6 @@ type EventRanking struct {
 	Ranking   []rawRanking `json:"ranking"`
 }
 
-// rawRanking struct
 type rawRanking struct {
 	Rank        int    `json:"rank"`
 	EventID     int    `json:"event_id"`
