@@ -4,7 +4,7 @@ RUN apk add --no-cache git \
     curl \
     make
 
-WORKDIR /go/src/bitbucket.org/hiko1129/go-techplay
+WORKDIR /go/src/github.com/hiko1129/go-techplay
 COPY . .
 
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh

@@ -5,4 +5,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/go/src/bitbucket.org/hiko1129/go-techplay
+      - .:/go/src/github.com/hiko1129/go-techplay
